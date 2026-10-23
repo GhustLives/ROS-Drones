@@ -24,6 +24,7 @@ setup(
             'hello_node = my_first_ros.hello_node:main',
             'altitude_publisher = my_first_ros.altitude_publisher:main',
             'altitude_subscriber = my_first_ros.altitude_subscriber:main',
+            'landing_controller = my_first_ros.landing_controller:main',
         ],
     },
 )
