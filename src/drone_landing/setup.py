@@ -26,6 +26,7 @@ setup(
     entry_points={
         "console_scripts": [
             "landing_node = drone_landing.landing_node:main",
+            "telemetry_node = drone_landing.telemetry_node:main",
         ],
     },
 )
